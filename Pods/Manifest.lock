@@ -1,0 +1,16 @@
+PODS:
+  - Hansel (7.1.0)
+
+DEPENDENCIES:
+  - Hansel (from `/Users/hansel/testBuild-iOS-SDK`)
+
+EXTERNAL SOURCES:
+  Hansel:
+    :path: "/Users/hansel/testBuild-iOS-SDK"
+
+SPEC CHECKSUMS:
+  Hansel: a51f4359808754c7b122fcf7780304e39925bfe1
+
+PODFILE CHECKSUM: 995bfa7e078aaff0748ac7b668f24c1bcb1eb965
+
+COCOAPODS: 1.5.3

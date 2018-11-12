@@ -1,0 +1,6 @@
+framework module Pods_testObjcSwiftMergeTests {
+  umbrella header "Pods-testObjcSwiftMergeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
