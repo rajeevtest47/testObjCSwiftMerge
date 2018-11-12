@@ -1,9 +1,12 @@
-version: 2.1
+version: 2
+jobs:
+  build:
 
-orbs:
-    hello: circleci/hello-build@.0.0.5 # uses the circleci/buildpack-deps Docker image
+    # Specify the Xcode version to use
+    macos:
+      xcode: "10.0"
 
-workflows:
-    "Hello Workflow":
-        jobs:
-          - hello/hello-build
+    steps:
+      - checkout
+      - run:
+          run: echo "Hello World"
