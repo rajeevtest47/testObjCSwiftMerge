@@ -7,7 +7,8 @@ target 'testObjcSwiftMerge' do
 
   # Pods for testObjcSwiftMerge
   #pod 'Hansel', :path => '/Users/hansel/sdk-ios'
-  pod 'Hansel', :path => '/Users/hansel/testBuild-iOS-SDK'
+  #pod 'Hansel', :path => '/Users/hansel/testBuild-iOS-SDK'
+  pod 'Hansel' , :git => 'https://github.com/rajeevtest47/testBuild-iOS-SDK'
   target 'testObjcSwiftMergeTests' do
     inherit! :search_paths
     # Pods for testing

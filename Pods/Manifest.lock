@@ -1,16 +1,21 @@
 PODS:
-  - Hansel (7.1.0)
+  - Hansel (7.0.2.100)
 
 DEPENDENCIES:
-  - Hansel (from `/Users/hansel/testBuild-iOS-SDK`)
+  - Hansel (from `https://github.com/rajeevtest47/testBuild-iOS-SDK`)
 
 EXTERNAL SOURCES:
   Hansel:
-    :path: "/Users/hansel/testBuild-iOS-SDK"
+    :git: https://github.com/rajeevtest47/testBuild-iOS-SDK
+
+CHECKOUT OPTIONS:
+  Hansel:
+    :commit: 1bee26b705ac4b12ad11062aa3d9c5bb579a8183
+    :git: https://github.com/rajeevtest47/testBuild-iOS-SDK
 
 SPEC CHECKSUMS:
-  Hansel: a51f4359808754c7b122fcf7780304e39925bfe1
+  Hansel: 95e85ed0a8ea79365395e4b880ef23ade21d4e5b
 
-PODFILE CHECKSUM: 995bfa7e078aaff0748ac7b668f24c1bcb1eb965
+PODFILE CHECKSUM: 59cdff410d09440923be5318feb9d949acea43e0
 
 COCOAPODS: 1.5.3

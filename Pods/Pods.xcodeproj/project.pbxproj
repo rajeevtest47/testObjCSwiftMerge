@@ -43,7 +43,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05DE1047D3BBDE25704AC62FB9694CC5 /* Hansel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Hansel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		083CAF938379984C221998B02D62C42E /* Pods-testObjcSwiftMergeUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testObjcSwiftMergeUITests-frameworks.sh"; sourceTree = "<group>"; };
 		0B6B03162AE2368F6CC37E6E44C73F93 /* iohanseliOS.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = iohanseliOS.bundle; path = "Hansel-iohanseliOS.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB0A172BBE421CB2A9C36A0ABC4C795 /* Pods-testObjcSwiftMerge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testObjcSwiftMerge-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -55,12 +54,12 @@
 		35856827B53DD93490F66024A6E81476 /* Pods-testObjcSwiftMergeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testObjcSwiftMergeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3ADD579153A2E47524F6ECEB4E5E8C98 /* Pods-testObjcSwiftMerge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testObjcSwiftMerge.debug.xcconfig"; sourceTree = "<group>"; };
 		453C638F94B32BEEE7893197014B64AB /* Pods-testObjcSwiftMerge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-testObjcSwiftMerge-dummy.m"; sourceTree = "<group>"; };
+		46133F7C2710FAAEEBB386FC9F5796A5 /* ResourceBundle-iohanseliOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-iohanseliOS-Info.plist"; sourceTree = "<group>"; };
 		4D555EFB50717F2F9C860686F6582F55 /* Pods-testObjcSwiftMergeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-testObjcSwiftMergeUITests-dummy.m"; sourceTree = "<group>"; };
 		4FF34F36021203E04048FC93720919D9 /* Pods-testObjcSwiftMergeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testObjcSwiftMergeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5B0AF13C0FF05CA499749F6275932605 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E41680A7DA2B54241F4031C66AE5EC5 /* Pods_testObjcSwiftMergeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_testObjcSwiftMergeUITests.framework; path = "Pods-testObjcSwiftMergeUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		69DDA1CE97AAFA66128CEB67874D4CA7 /* Hansel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hansel.framework; path = Hansel/framework/Hansel.framework; sourceTree = "<group>"; };
 		6CE47A88A85E06CDA28D26DE950EFE21 /* Pods-testObjcSwiftMergeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-testObjcSwiftMergeTests-umbrella.h"; sourceTree = "<group>"; };
 		736F9BDB5CA0189324178564FCE0300A /* Pods-testObjcSwiftMergeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-testObjcSwiftMergeTests-dummy.m"; sourceTree = "<group>"; };
 		8F4904C5AA2ED8416038F61D1306BD1E /* Pods-testObjcSwiftMergeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testObjcSwiftMergeTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -73,15 +72,14 @@
 		AD995E8B043C1225FD148D6157C28EE4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B03E8FF4A8C6FC67B81FD27B5FAB76D3 /* Pods-testObjcSwiftMerge-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testObjcSwiftMerge-frameworks.sh"; sourceTree = "<group>"; };
 		C22C0555A5E4733636D2CEE52B8F7FE3 /* Pods_testObjcSwiftMerge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_testObjcSwiftMerge.framework; path = "Pods-testObjcSwiftMerge.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C25B32D32BB1DF1C16D150DDA003E96D /* ResourceBundle-iohanseliOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-iohanseliOS-Info.plist"; sourceTree = "<group>"; };
 		C31D0F181FD3C51798B71EB6302F1A89 /* Pods-testObjcSwiftMergeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testObjcSwiftMergeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C82C55759AA7DF1499A4719DDA153EAF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0F70FEAB5DA9DC56EEE78A16FEC2A55 /* Pods-testObjcSwiftMergeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testObjcSwiftMergeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D3B40A857B2FC1FF9A0083336F3F8945 /* Pods_testObjcSwiftMergeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_testObjcSwiftMergeTests.framework; path = "Pods-testObjcSwiftMergeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D67D9B61716E47A8265A48B7830499CA /* Pods-testObjcSwiftMerge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testObjcSwiftMerge.release.xcconfig"; sourceTree = "<group>"; };
 		EB94248F8EAAC7240DBDB0C1F1F3D409 /* Pods-testObjcSwiftMergeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-testObjcSwiftMergeUITests.modulemap"; sourceTree = "<group>"; };
+		ECA40C4BE41B0391C14ADAE569854189 /* Hansel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hansel.framework; path = Hansel/framework/Hansel.framework; sourceTree = "<group>"; };
 		EF172F3F9E0A823A0D35ECABDEA4D805 /* Pods-testObjcSwiftMergeUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testObjcSwiftMergeUITests-resources.sh"; sourceTree = "<group>"; };
-		F8C84760AF333D1AEA85FD182EFD54F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F98485E13D1AA5B27D29F761A02CC57E /* Pods-testObjcSwiftMerge-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testObjcSwiftMerge-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,13 +118,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07D709FA3024C9A2520B7774DF13D91C /* Support Files */ = {
+		26E07EF4A7F4F9E710B0F6AE00DB2044 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C25B32D32BB1DF1C16D150DDA003E96D /* ResourceBundle-iohanseliOS-Info.plist */,
+				46133F7C2710FAAEEBB386FC9F5796A5 /* ResourceBundle-iohanseliOS-Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Desktop/testObjcSwiftMerge/Pods/Target Support Files/Hansel";
+			path = "../Target Support Files/Hansel";
 			sourceTree = "<group>";
 		};
 		275D4C1EB1EA09DAB2080B32252B05BC /* Pods-testObjcSwiftMergeTests */ = {
@@ -158,6 +156,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		4C0A87F2C87BA65DD8CAC411834909DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC89C0C87E8A0150A5711A0B8E973B42 /* Hansel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,17 +171,6 @@
 			);
 			name = iOS;
 			sourceTree = "<group>";
-		};
-		5FA0F4D038B09797ECF1B244200164D2 /* Hansel */ = {
-			isa = PBXGroup;
-			children = (
-				9ED7AEC3E3B6893A9B751C145F67186B /* Frameworks */,
-				FC89843879FA3F55F9F4B15CA795E411 /* Pod */,
-				07D709FA3024C9A2520B7774DF13D91C /* Support Files */,
-			);
-			name = Hansel;
-			path = "/Users/hansel/testBuild-iOS-SDK";
-			sourceTree = "<absolute>";
 		};
 		5FB8FA4D5F81BBF75BB5EC53D84FAAF7 /* Pods-testObjcSwiftMergeUITests */ = {
 			isa = PBXGroup;
@@ -205,31 +200,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		7CCA07E42670C98CEDD9D26B620759F1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				AA690AE15C18E4855F1473A350706DEA /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				31FB92B7B64DD1F02CDE70B3E15E7689 /* Products */,
-				73E561DD374ACE4A55466676BAA3156C /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		9ED7AEC3E3B6893A9B751C145F67186B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				69DDA1CE97AAFA66128CEB67874D4CA7 /* Hansel.framework */,
+				ECA40C4BE41B0391C14ADAE569854189 /* Hansel.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AA690AE15C18E4855F1473A350706DEA /* Development Pods */ = {
+		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				5FA0F4D038B09797ECF1B244200164D2 /* Hansel */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4C0A87F2C87BA65DD8CAC411834909DD /* Pods */,
+				31FB92B7B64DD1F02CDE70B3E15E7689 /* Products */,
+				73E561DD374ACE4A55466676BAA3156C /* Targets Support Files */,
 			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -238,6 +225,16 @@
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC89C0C87E8A0150A5711A0B8E973B42 /* Hansel */ = {
+			isa = PBXGroup;
+			children = (
+				7CCA07E42670C98CEDD9D26B620759F1 /* Frameworks */,
+				26E07EF4A7F4F9E710B0F6AE00DB2044 /* Support Files */,
+			);
+			name = Hansel;
+			path = Hansel;
 			sourceTree = "<group>";
 		};
 		EE5224D513FCC65B46EE9BACEB567A23 /* Pods-testObjcSwiftMerge */ = {
@@ -256,15 +253,6 @@
 			);
 			name = "Pods-testObjcSwiftMerge";
 			path = "Target Support Files/Pods-testObjcSwiftMerge";
-			sourceTree = "<group>";
-		};
-		FC89843879FA3F55F9F4B15CA795E411 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				05DE1047D3BBDE25704AC62FB9694CC5 /* Hansel.podspec */,
-				F8C84760AF333D1AEA85FD182EFD54F9 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

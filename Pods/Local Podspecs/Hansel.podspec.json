@@ -1,6 +1,6 @@
 {
   "name": "Hansel",
-  "version": "7.1.0",
+  "version": "7.0.2.100",
   "platforms": {
     "ios": "8.0"
   },
@@ -24,7 +24,7 @@
   },
   "source": {
     "git": "https://bitbucket.org/hanselio/hansel-ios-framework-private/src/master/",
-    "tag": "7.1.0"
+    "tag": "7.0.2.100"
   },
   "ios": {
     "vendored_frameworks": "Hansel/framework/Hansel.framework",

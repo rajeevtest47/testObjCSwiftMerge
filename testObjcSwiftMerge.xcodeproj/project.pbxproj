@@ -396,7 +396,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-testObjcSwiftMerge/Pods-testObjcSwiftMerge-frameworks.sh",
-				"${PODS_ROOT}/../../../testBuild-iOS-SDK/Hansel/framework/Hansel.framework",
+				"${PODS_ROOT}/Hansel/Hansel/framework/Hansel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
