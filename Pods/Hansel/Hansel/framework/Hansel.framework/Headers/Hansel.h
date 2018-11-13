@@ -18,6 +18,5 @@
 + (NSDictionary*) getExperiences;
 
 + (User*) getUser;
-+ (NSString*) getTestString;
-+ (NSDictionary*) getTestDictionary;
+
 @end

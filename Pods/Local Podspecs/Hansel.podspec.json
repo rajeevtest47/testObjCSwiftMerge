@@ -1,6 +1,6 @@
 {
   "name": "Hansel",
-  "version": "7.0.2.100",
+  "version": "7.0.2",
   "platforms": {
     "ios": "8.0"
   },
@@ -17,14 +17,14 @@
   "documentation_url": "http://hansel.io/",
   "user_target_xcconfig": {
     "FRAMEWORK_SEARCH_PATHS": "$(inherited)",
-    "USER_HEADER_SEARCH_PATHS": "$(inherited)",
+    "USER_HEADER_SEARCH_PATHS": "${PODS_ROOT}/Hansel/**",
     "OTHER_LDFLAGS": "-ObjC",
     "HANSEL_ENABLED": "YES",
     "GCC_PREPROCESSOR_DEFINITIONS": "HANSEL_ENABLED=${HANSEL_ENABLED}"
   },
   "source": {
-    "git": "https://bitbucket.org/hanselio/hansel-ios-framework-private/src/master/",
-    "tag": "7.0.2.100"
+    "git": "https://bitbucket.org/hanselio/hansel.io-ios.git",
+    "tag": "7.0.2"
   },
   "ios": {
     "vendored_frameworks": "Hansel/framework/Hansel.framework",
