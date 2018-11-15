@@ -600,7 +600,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = rajeevrajeshuni.testObjcSwiftMerge;
+				PRODUCT_BUNDLE_IDENTIFIER = rajeevrajeshuni.testObjcSwiftMerge1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/testObjCSwiftMerge/testObjCSwiftMerge-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
@@ -620,7 +620,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = rajeevrajeshuni.testObjcSwiftMerge;
+				PRODUCT_BUNDLE_IDENTIFIER = rajeevrajeshuni.testObjcSwiftMerge1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/testObjCSwiftMerge/testObjCSwiftMerge-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
